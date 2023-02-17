@@ -1,0 +1,2096 @@
+<pre><font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo apt-get update
+    [sudo] password for ozone: 
+    Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+    Hit:2 http://in.archive.ubuntu.com/ubuntu focal InRelease
+    Get:3 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+    Get:4 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [531 kB]
+    Get:5 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+    Get:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2,277 kB]
+    Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1,898 kB]
+    Get:8 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [312 kB]
+    Get:9 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [40.6 kB]        
+    Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [11.6 kB]          
+    Get:11 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [780 kB]              
+    Get:12 http://in.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [764 kB]         
+    Get:13 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [151 kB]  
+    Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [94.2 kB]
+    Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [16.9 kB]     
+    Get:16 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]   
+    Get:17 http://in.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [396 kB]            
+    Get:18 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [274 kB]
+    Get:19 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.1 kB]
+    Get:20 http://in.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1,483 kB]
+    Get:21 http://in.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [210 kB]
+    Get:22 http://in.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [705 kB]
+    Get:23 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,011 kB]
+    Get:24 http://in.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [234 kB]
+    Get:25 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [407 kB]
+    Get:26 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [23.2 kB]
+    Get:27 http://in.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [944 B]
+    Get:28 http://in.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7,988 B]
+    Get:29 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
+    Fetched 12.0 MB in 5s (2,340 kB/s)                                         
+    Reading package lists... Done
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ ls
+    <font color="#3465A4"><b>Desktop</b></font>  <font color="#3465A4"><b>Documents</b></font>  <font color="#3465A4"><b>Downloads</b></font>  <font color="#3465A4"><b>Music</b></font>  <font color="#3465A4"><b>Pictures</b></font>  <font color="#3465A4"><b>Public</b></font>  <font color="#3465A4"><b>snap</b></font>  <font color="#3465A4"><b>Templates</b></font>  <font color="#3465A4"><b>Videos</b></font>
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Downloads/
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get install ./docker-desktop-4.15.0-amd64.deb 
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    Note, selecting &apos;docker-desktop&apos; instead of &apos;./docker-desktop-4.15.0-amd64.deb&apos;
+    Some packages could not be installed. This may mean that you have
+    requested an impossible situation or if you are using the unstable
+    distribution that some required packages have not yet been created
+    or been moved out of Incoming.
+    The following information may help to resolve the situation:
+    
+    The following packages have unmet dependencies:
+     docker-desktop : Depends: docker-ce-cli but it is not installable
+    E: Unable to correct problems, you have held broken packages.
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ ls
+     <font color="#CC0000"><b>docker-desktop-4.15.0-amd64.deb</b></font>  <font color="#75507B"><b>&apos;Screenshot 2023-01-02 at 16-58-21 Screenshot.png&apos;</b></font>
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ dpkg install docker-dektop-4.15.0-amd64.deb
+    <b>dpkg:</b> <font color="#CC0000"><b>error:</b></font> need an action option
+    
+    Type dpkg --help for help about installing and deinstalling packages [*];
+    Use &apos;apt&apos; or &apos;aptitude&apos; for user-friendly package management;
+    Type dpkg -Dhelp for a list of dpkg debug flag values;
+    Type dpkg --force-help for a list of forcing options;
+    Type dpkg-deb --help for help about manipulating *.deb files;
+    
+    Options marked [*] produce a lot of output - pipe it through &apos;less&apos; or &apos;more&apos; !
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo dpkg --install docker-desktop-4.15.0-amd64.deb
+    Selecting previously unselected package docker-desktop.
+    (Reading database ... 194600 files and directories currently installed.)
+    Preparing to unpack docker-desktop-4.15.0-amd64.deb ...
+    Unpacking docker-desktop (4.15.0-93002) ...
+    <b>dpkg:</b> dependency problems prevent configuration of docker-desktop:
+     docker-desktop depends on curl; however:
+      Package curl is not installed.
+     docker-desktop depends on qemu-system-x86 (&gt;= 5.2.0); however:
+      Package qemu-system-x86 is not installed.
+     docker-desktop depends on docker-ce-cli; however:
+      Package docker-ce-cli is not installed.
+     docker-desktop depends on pass; however:
+      Package pass is not installed.
+     docker-desktop depends on uidmap; however:
+      Package uidmap is not installed.
+    
+    <b>dpkg:</b> error processing package docker-desktop (--install):
+     dependency problems - leaving unconfigured
+    Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+    Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+    Processing triggers for mime-support (3.64ubuntu1) ...
+    Errors were encountered while processing:
+     docker-desktop
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ systemctl --user start docker-desktop
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ systemctl --user start docker-desktop
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ systemctl --user start docker-desktop
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo dpkg --remove docker-desktop
+    (Reading database ... 194739 files and directories currently installed.)
+    Removing docker-desktop (4.15.0-93002) ...
+    Reloading systemd daemon for logged in users
+    Cannot access user instance remotely.
+    Done reloading systemd daemon for logged in users
+    Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+    Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+    Processing triggers for mime-support (3.64ubuntu1) ...
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo dpkg --install docker-desktop-4.15.0-amd64.deb
+    Selecting previously unselected package docker-desktop.
+    (Reading database ... 194601 files and directories currently installed.)
+    Preparing to unpack docker-desktop-4.15.0-amd64.deb ...
+    Unpacking docker-desktop (4.15.0-93002) ...
+    <b>dpkg:</b> dependency problems prevent configuration of docker-desktop:
+     docker-desktop depends on curl; however:
+      Package curl is not installed.
+     docker-desktop depends on qemu-system-x86 (&gt;= 5.2.0); however:
+      Package qemu-system-x86 is not installed.
+     docker-desktop depends on docker-ce-cli; however:
+      Package docker-ce-cli is not installed.
+     docker-desktop depends on pass; however:
+      Package pass is not installed.
+     docker-desktop depends on uidmap; however:
+      Package uidmap is not installed.
+    
+    <b>dpkg:</b> error processing package docker-desktop (--install):
+     dependency problems - leaving unconfigured
+    Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+    Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+    Processing triggers for mime-support (3.64ubuntu1) ...
+    Errors were encountered while processing:
+     docker-desktop
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo dpkg --remove docker-desktop
+    (Reading database ... 194739 files and directories currently installed.)
+    Removing docker-desktop (4.15.0-93002) ...
+    Reloading systemd daemon for logged in users
+    Cannot access user instance remotely.
+    Done reloading systemd daemon for logged in users
+    Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+    Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+    Processing triggers for mime-support (3.64ubuntu1) ...
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get remove docker docker-engine docker.io containerd runc
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    E: Unable to locate package docker-engine
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get update
+    Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+    Hit:2 http://in.archive.ubuntu.com/ubuntu focal InRelease
+    Get:3 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+    Get:4 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+    Fetched 336 kB in 2s (221 kB/s)   
+    Reading package lists... Done
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get install \
+    &gt; ca-certificates \
+    &gt; curl \
+    &gt; gnupg \
+    &gt; lsb-release
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    lsb-release is already the newest version (11.1.0ubuntu2).
+    lsb-release set to manually installed.
+    ca-certificates is already the newest version (20211016ubuntu0.20.04.1).
+    ca-certificates set to manually installed.
+    gnupg is already the newest version (2.2.19-3ubuntu2.2).
+    gnupg set to manually installed.
+    The following NEW packages will be installed:
+      curl
+    0 upgraded, 1 newly installed, 0 to remove and 131 not upgraded.
+    Need to get 161 kB of archives.
+    After this operation, 413 kB of additional disk space will be used.
+    Do you want to continue? [Y/n] y
+    Get:1 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.68.0-1ubuntu2.14 [161 kB]
+    Fetched 161 kB in 1s (151 kB/s)
+    Selecting previously unselected package curl.
+    (Reading database ... 194601 files and directories currently installed.)
+    Preparing to unpack .../curl_7.68.0-1ubuntu2.14_amd64.deb ...
+    Unpacking curl (7.68.0-1ubuntu2.14) ...
+    Setting up curl (7.68.0-1ubuntu2.14) ...
+    Processing triggers for man-db (2.9.1-1) ...
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo mkdir -p /etc/apt/keyrings
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    Package docker-ce is not available, but is referred to by another package.
+    This may mean that the package is missing, has been obsoleted, or
+    is only available from another source
+    
+    Package docker-ce-cli is not available, but is referred to by another package.
+    This may mean that the package is missing, has been obsoleted, or
+    is only available from another source
+    
+    E: Package &apos;docker-ce&apos; has no installation candidate
+    E: Package &apos;docker-ce-cli&apos; has no installation candidate
+    E: Unable to locate package containerd.io
+    E: Couldn&apos;t find any package by glob &apos;containerd.io&apos;
+    E: Couldn&apos;t find any package by regex &apos;containerd.io&apos;
+    E: Unable to locate package docker-compose-plugin
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo docker run hello-world
+    sudo: docker: command not found
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ echo \
+    &gt;   &quot;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+    &gt;   $(lsb_release -cs) stable&quot; | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get update
+    Get:1 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+    Get:2 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages [22.3 kB]                                           
+    Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]                      
+    Hit:4 http://in.archive.ubuntu.com/ubuntu focal InRelease                                
+    Get:5 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]               
+    Get:6 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+    Fetched 416 kB in 2s (252 kB/s)    
+    Reading package lists... Done
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    The following additional packages will be installed:
+      docker-ce-rootless-extras docker-scan-plugin git git-man liberror-perl pigz slirp4netns
+    Suggested packages:
+      aufs-tools cgroupfs-mount | cgroup-lite git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+    The following NEW packages will be installed:
+      containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras docker-compose-plugin docker-scan-plugin git git-man liberror-perl pigz slirp4netns
+    0 upgraded, 11 newly installed, 0 to remove and 131 not upgraded.
+    Need to get 117 MB of archives.
+    After this operation, 466 MB of additional disk space will be used.
+    Do you want to continue? [Y/n] Y
+    Get:1 https://download.docker.com/linux/ubuntu focal/stable amd64 containerd.io amd64 1.6.14-1 [27.7 MB]
+    Get:2 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 [57.4 kB] 
+    Get:3 http://in.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+    Get:4 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.6 [887 kB]
+    Get:5 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-cli amd64 5:20.10.22~3-0~ubuntu-focal [41.5 MB]
+    Get:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.6 [4,529 kB]
+    Get:7 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 slirp4netns amd64 0.4.3-1 [74.3 kB]
+    Get:8 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce amd64 5:20.10.22~3-0~ubuntu-focal [20.5 MB]
+    Get:9 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-rootless-extras amd64 5:20.10.22~3-0~ubuntu-focal [8,395 kB]
+    Get:10 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-compose-plugin amd64 2.14.1~ubuntu-focal [9,562 kB]
+    Get:11 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-scan-plugin amd64 0.23.0~ubuntu-focal [3,622 kB]
+    Fetched 117 MB in 3s (41.0 MB/s)               
+    Selecting previously unselected package pigz.
+    (Reading database ... 194608 files and directories currently installed.)
+    Preparing to unpack .../00-pigz_2.4-1_amd64.deb ...
+    Unpacking pigz (2.4-1) ...
+    Selecting previously unselected package containerd.io.
+    Preparing to unpack .../01-containerd.io_1.6.14-1_amd64.deb ...
+    Unpacking containerd.io (1.6.14-1) ...
+    Selecting previously unselected package docker-ce-cli.
+    Preparing to unpack .../02-docker-ce-cli_5%3a20.10.22~3-0~ubuntu-focal_amd64.deb ...
+    Unpacking docker-ce-cli (5:20.10.22~3-0~ubuntu-focal) ...
+    Selecting previously unselected package docker-ce.
+    Preparing to unpack .../03-docker-ce_5%3a20.10.22~3-0~ubuntu-focal_amd64.deb ...
+    Unpacking docker-ce (5:20.10.22~3-0~ubuntu-focal) ...
+    Selecting previously unselected package docker-ce-rootless-extras.
+    Preparing to unpack .../04-docker-ce-rootless-extras_5%3a20.10.22~3-0~ubuntu-focal_amd64.deb ...
+    Unpacking docker-ce-rootless-extras (5:20.10.22~3-0~ubuntu-focal) ...
+    Selecting previously unselected package docker-compose-plugin.
+    Preparing to unpack .../05-docker-compose-plugin_2.14.1~ubuntu-focal_amd64.deb ...
+    Unpacking docker-compose-plugin (2.14.1~ubuntu-focal) ...
+    Selecting previously unselected package docker-scan-plugin.
+    Preparing to unpack .../06-docker-scan-plugin_0.23.0~ubuntu-focal_amd64.deb ...
+    Unpacking docker-scan-plugin (0.23.0~ubuntu-focal) ...
+    Selecting previously unselected package liberror-perl.
+    Preparing to unpack .../07-liberror-perl_0.17029-1_all.deb ...
+    Unpacking liberror-perl (0.17029-1) ...
+    Selecting previously unselected package git-man.
+    Preparing to unpack .../08-git-man_1%3a2.25.1-1ubuntu3.6_all.deb ...
+    Unpacking git-man (1:2.25.1-1ubuntu3.6) ...
+    Selecting previously unselected package git.
+    Preparing to unpack .../09-git_1%3a2.25.1-1ubuntu3.6_amd64.deb ...
+    Unpacking git (1:2.25.1-1ubuntu3.6) ...
+    Selecting previously unselected package slirp4netns.
+    Preparing to unpack .../10-slirp4netns_0.4.3-1_amd64.deb ...
+    Unpacking slirp4netns (0.4.3-1) ...
+    Setting up slirp4netns (0.4.3-1) ...
+    Setting up docker-scan-plugin (0.23.0~ubuntu-focal) ...
+    Setting up liberror-perl (0.17029-1) ...
+    Setting up containerd.io (1.6.14-1) ...
+    Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+    Setting up docker-compose-plugin (2.14.1~ubuntu-focal) ...
+    Setting up docker-ce-cli (5:20.10.22~3-0~ubuntu-focal) ...
+    Setting up pigz (2.4-1) ...
+    Setting up git-man (1:2.25.1-1ubuntu3.6) ...
+    Setting up docker-ce-rootless-extras (5:20.10.22~3-0~ubuntu-focal) ...
+    Setting up docker-ce (5:20.10.22~3-0~ubuntu-focal) ...
+    Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+    Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+    Setting up git (1:2.25.1-1ubuntu3.6) ...
+    Processing triggers for man-db (2.9.1-1) ...
+    Processing triggers for systemd (245.4-4ubuntu3.15) ...
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo docker run hello-world
+    Unable to find image &apos;hello-world:latest&apos; locally
+    latest: Pulling from library/hello-world
+    2db29710123e: Pull complete 
+    Digest: sha256:94ebc7edf3401f299cd3376a1669bc0a49aef92d6d2669005f9bc5ef028dc333
+    Status: Downloaded newer image for hello-world:latest
+    
+    Hello from Docker!
+    This message shows that your installation appears to be working correctly.
+    
+    To generate this message, Docker took the following steps:
+     1. The Docker client contacted the Docker daemon.
+     2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.
+        (amd64)
+     3. The Docker daemon created a new container from that image which runs the
+        executable that produces the output you are currently reading.
+     4. The Docker daemon streamed that output to the Docker client, which sent it
+        to your terminal.
+    
+    To try something more ambitious, you can run an Ubuntu container with:
+     $ docker run -it ubuntu bash
+    
+    Share images, automate workflows, and more with a free Docker ID:
+     https://hub.docker.com/
+    
+    For more examples and ideas, visit:
+     https://docs.docker.com/get-started/
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ docker
+    +
+    Usage:  docker [OPTIONS] COMMAND
+    
+    A self-sufficient runtime for containers
+    
+    Options:
+          --config string      Location of client config files (default &quot;/home/ozone/.docker&quot;)
+      -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with &quot;docker context use&quot;)
+      -D, --debug              Enable debug mode
+      -H, --host list          Daemon socket(s) to connect to
+      -l, --log-level string   Set the logging level (&quot;debug&quot;|&quot;info&quot;|&quot;warn&quot;|&quot;error&quot;|&quot;fatal&quot;) (default &quot;info&quot;)
+          --tls                Use TLS; implied by --tlsverify
+          --tlscacert string   Trust certs signed only by this CA (default &quot;/home/ozone/.docker/ca.pem&quot;)
+          --tlscert string     Path to TLS certificate file (default &quot;/home/ozone/.docker/cert.pem&quot;)
+          --tlskey string      Path to TLS key file (default &quot;/home/ozone/.docker/key.pem&quot;)
+          --tlsverify          Use TLS and verify the remote
+      -v, --version            Print version information and quit
+    
+    Management Commands:
+      app*        Docker App (Docker Inc., v0.9.1-beta3)
+      builder     Manage builds
+      buildx*     Docker Buildx (Docker Inc., v0.9.1-docker)
+      compose*    Docker Compose (Docker Inc., v2.14.1)
+      config      Manage Docker configs
+      container   Manage containers
+      context     Manage contexts
+      image       Manage images
+      manifest    Manage Docker image manifests and manifest lists
+      network     Manage networks
+      node        Manage Swarm nodes
+      plugin      Manage plugins
+      scan*       Docker Scan (Docker Inc., v0.23.0)
+      secret      Manage Docker secrets
+      service     Manage services
+      stack       Manage Docker stacks
+      swarm       Manage Swarm
+      system      Manage Docker
+      trust       Manage trust on Docker images
+      volume      Manage volumes
+    
+    Commands:
+      attach      Attach local standard input, output, and error streams to a running container
+      build       Build an image from a Dockerfile
+      commit      Create a new image from a container&apos;s changes
+      cp          Copy files/folders between a container and the local filesystem
+      create      Create a new container
+      diff        Inspect changes to files or directories on a container&apos;s filesystem
+      events      Get real time events from the server
+      exec        Run a command in a running container
+      export      Export a container&apos;s filesystem as a tar archive
+      history     Show the history of an image
+      images      List images
+      import      Import the contents from a tarball to create a filesystem image
+      info        Display system-wide information
+      inspect     Return low-level information on Docker objects
+      kill        Kill one or more running containers
+      load        Load an image from a tar archive or STDIN
+      login       Log in to a Docker registry
+      logout      Log out from a Docker registry
+      logs        Fetch the logs of a container
+      pause       Pause all processes within one or more containers
+      port        List port mappings or a specific mapping for the container
+      ps          List containers
+      pull        Pull an image or a repository from a registry
+      push        Push an image or a repository to a registry
+      rename      Rename a container
+      restart     Restart one or more containers
+      rm          Remove one or more containers
+      rmi         Remove one or more images
+      run         Run a command in a new container
+      save        Save one or more images to a tar archive (streamed to STDOUT by default)
+      search      Search the Docker Hub for images
+      start       Start one or more stopped containers
+      stats       Display a live stream of container(s) resource usage statistics
+      stop        Stop one or more running containers
+      tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+      top         Display the running processes of a container
+      unpause     Unpause all processes within one or more containers
+      update      Update configuration of one or more containers
+      version     Show the Docker version information
+      wait        Block until one or more containers stop, then print their exit codes
+    
+    Run &apos;docker COMMAND --help&apos; for more information on a command.
+    
+    <b>To get more help with docker, check out our guides at https://docs.docker.com/go/guides/</b>
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ +
+    +: command not found
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo groupadd docker
+    groupadd: group &apos;docker&apos; already exists
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo usermod -aG docker $USER
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ newgrp docker
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ docker run hello-world
+    docker: Cannot connect to the Docker daemon at unix:///home/ozone/.docker/desktop/docker.sock. Is the docker daemon running?.
+    See &apos;docker run --help&apos;.
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo chown &quot;$USER&quot;:&quot;$USER&quot; /home/&quot;$USER&quot;/.docker -R
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo chmod g+rwx &quot;$HOME/.docker&quot; -R
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo system ctl status docker
+    sudo: system: command not found
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo systemctl status docker
+    <font color="#4E9A06"><b>●</b></font> docker.service - Docker Application Container Engine
+         Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+         Active: <font color="#4E9A06"><b>active (running)</b></font> since Thu 2023-01-05 10:55:15 IST; 6min ago
+    TriggeredBy: <font color="#4E9A06"><b>●</b></font> docker.socket
+           Docs: https://docs.docker.com
+       Main PID: 8302 (dockerd)
+          Tasks: 14
+         Memory: 24.5M
+         CGroup: /system.slice/docker.service
+                 └─8302 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+    
+    Jan 05 10:55:14 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:14.865912516+05:30&quot; level=warning msg=&quot;Your kernel does not support cgroup blkio weight&quot;
+    Jan 05 10:55:14 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:14.865917828+05:30&quot; level=warning msg=&quot;Your kernel does not support cgroup blkio weight_device&quot;
+    Jan 05 10:55:14 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:14.866141250+05:30&quot; level=info msg=&quot;Loading containers: start.&quot;
+    Jan 05 10:55:14 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:14.991447553+05:30&quot; level=info msg=&quot;Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip c<span style="background-color:#FFFFFF"><font color="#300A24">&gt;</font></span>
+    Jan 05 10:55:15 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:15.044764663+05:30&quot; level=info msg=&quot;Loading containers: done.&quot;
+    Jan 05 10:55:15 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:15.067552349+05:30&quot; level=info msg=&quot;Docker daemon&quot; commit=42c8b31 graphdriver(s)=overlay2 version=20.10.22
+    Jan 05 10:55:15 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:15.067688059+05:30&quot; level=info msg=&quot;Daemon has completed initialization&quot;
+    Jan 05 10:55:15 ozone-Latitude-7400 systemd[1]: Started Docker Application Container Engine.
+    Jan 05 10:55:15 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:55:15.108614192+05:30&quot; level=info msg=&quot;API listen on /run/docker.sock&quot;
+    Jan 05 10:56:05 ozone-Latitude-7400 dockerd[8302]: time=&quot;2023-01-05T10:56:05.047937849+05:30&quot; level=info msg=&quot;ignoring event&quot; container=1200d8ad14e738dd6fb87227b2dbdba84f6291e1584fca7838325922fb17b769 m<span style="background-color:#FFFFFF"><font color="#300A24">&gt;</font></span>
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo systemctl restart docker
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo systemctl status docker
+    <font color="#4E9A06"><b>●</b></font> docker.service - Docker Application Container Engine
+         Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+         Active: <font color="#4E9A06"><b>active (running)</b></font> since Thu 2023-01-05 11:02:55 IST; 40s ago
+    TriggeredBy: <font color="#4E9A06"><b>●</b></font> docker.socket
+           Docs: https://docs.docker.com
+       Main PID: 11851 (dockerd)
+          Tasks: 14
+         Memory: 20.9M
+         CGroup: /system.slice/docker.service
+                 └─11851 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+    
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.652447657+05:30&quot; level=warning msg=&quot;Your kernel does not support CPU realtime scheduler&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.652459355+05:30&quot; level=warning msg=&quot;Your kernel does not support cgroup blkio weight&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.652467588+05:30&quot; level=warning msg=&quot;Your kernel does not support cgroup blkio weight_device&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.652591734+05:30&quot; level=info msg=&quot;Loading containers: start.&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.710510444+05:30&quot; level=info msg=&quot;Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip <span style="background-color:#FFFFFF"><font color="#300A24">&gt;</font></span>
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.732458063+05:30&quot; level=info msg=&quot;Loading containers: done.&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.742291985+05:30&quot; level=info msg=&quot;Docker daemon&quot; commit=42c8b31 graphdriver(s)=overlay2 version=20.10.22
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.742353702+05:30&quot; level=info msg=&quot;Daemon has completed initialization&quot;
+    Jan 05 11:02:55 ozone-Latitude-7400 systemd[1]: Started Docker Application Container Engine.
+    Jan 05 11:02:55 ozone-Latitude-7400 dockerd[11851]: time=&quot;2023-01-05T11:02:55.755560650+05:30&quot; level=info msg=&quot;API listen on /run/docker.sock&quot;
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ docker ps
+    Cannot connect to the Docker daemon at unix:///home/ozone/.docker/desktop/docker.sock. Is the docker daemon running?
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ sudo rm -rf $HOME/.docker
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ docker ps
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ cd ..
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker images
+    REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+    hello-world   latest    feb5d9fea6a5   15 months ago   13.3kB
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker pull httpd
+    Using default tag: latest
+    latest: Pulling from library/httpd
+    3f4ca61aafcd: Pull complete 
+    2e3d233b6299: Pull complete 
+    6d859023da80: Pull complete 
+    f856a04699cc: Pull complete 
+    ec3bbe99d2b1: Pull complete 
+    Digest: sha256:f8c7bdfa89fb4448c95856c6145359f67dd447134018247609e7a23e5c5ec03a
+    Status: Downloaded newer image for httpd:latest
+    docker.io/library/httpd:latest
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker run httpd
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    [Thu Jan 05 05:44:19.608626 2023] [mpm_event:notice] [pid 1:tid 140058234441024] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
+    [Thu Jan 05 05:44:19.608706 2023] [core:notice] [pid 1:tid 140058234441024] AH00094: Command line: &apos;httpd -D FOREGROUND&apos;
+    ^C[Thu Jan 05 05:45:24.336140 2023] [mpm_event:notice] [pid 1:tid 140058234441024] AH00491: caught SIGTERM, shutting down
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker run httpd
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    [Thu Jan 05 05:45:37.249265 2023] [mpm_event:notice] [pid 1:tid 139790280699200] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
+    [Thu Jan 05 05:45:37.249342 2023] [core:notice] [pid 1:tid 139790280699200] AH00094: Command line: &apos;httpd -D FOREGROUND&apos;
+    ^C[Thu Jan 05 05:46:02.239621 2023] [mpm_event:notice] [pid 1:tid 139790280699200] AH00491: caught SIGTERM, shutting down
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker pull httpd:2.4.54
+    2.4.54: Pulling from library/httpd
+    Digest: sha256:f8c7bdfa89fb4448c95856c6145359f67dd447134018247609e7a23e5c5ec03a
+    Status: Downloaded newer image for httpd:2.4.54
+    docker.io/library/httpd:2.4.54
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker ps
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker run httpd:2.4.54
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    [Thu Jan 05 05:47:15.343274 2023] [mpm_event:notice] [pid 1:tid 140355148078400] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
+    [Thu Jan 05 05:47:15.343340 2023] [core:notice] [pid 1:tid 140355148078400] AH00094: Command line: &apos;httpd -D FOREGROUND&apos;
+    ^C[Thu Jan 05 05:47:53.199891 2023] [mpm_event:notice] [pid 1:tid 140355148078400] AH00491: caught SIGTERM, shutting down
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker inspect  httpd:2.4.54
+    [
+        {
+            &quot;Id&quot;: &quot;sha256:73c10eb9266e7e3850d5368a05e4bdd823d6f4cec0fd03a2b19c0118645a49ea&quot;,
+            &quot;RepoTags&quot;: [
+                &quot;httpd:2.4.54&quot;,
+                &quot;httpd:latest&quot;
+            ],
+            &quot;RepoDigests&quot;: [
+                &quot;httpd@sha256:f8c7bdfa89fb4448c95856c6145359f67dd447134018247609e7a23e5c5ec03a&quot;
+            ],
+            &quot;Parent&quot;: &quot;&quot;,
+            &quot;Comment&quot;: &quot;&quot;,
+            &quot;Created&quot;: &quot;2022-12-21T11:27:10.735832862Z&quot;,
+            &quot;Container&quot;: &quot;7d99b261351ba9feed14319a92c6a7d46d1c3a088628f9e1415363de77ddec1c&quot;,
+            &quot;ContainerConfig&quot;: {
+                &quot;Hostname&quot;: &quot;7d99b261351b&quot;,
+                &quot;Domainname&quot;: &quot;&quot;,
+                &quot;User&quot;: &quot;&quot;,
+                &quot;AttachStdin&quot;: false,
+                &quot;AttachStdout&quot;: false,
+                &quot;AttachStderr&quot;: false,
+                &quot;ExposedPorts&quot;: {
+                    &quot;80/tcp&quot;: {}
+                },
+                &quot;Tty&quot;: false,
+                &quot;OpenStdin&quot;: false,
+                &quot;StdinOnce&quot;: false,
+                &quot;Env&quot;: [
+                    &quot;PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;,
+                    &quot;HTTPD_PREFIX=/usr/local/apache2&quot;,
+                    &quot;HTTPD_VERSION=2.4.54&quot;,
+                    &quot;HTTPD_SHA256=eb397feeefccaf254f8d45de3768d9d68e8e73851c49afd5b7176d1ecf80c340&quot;,
+                    &quot;HTTPD_PATCHES=&quot;
+                ],
+                &quot;Cmd&quot;: [
+                    &quot;/bin/sh&quot;,
+                    &quot;-c&quot;,
+                    &quot;#(nop) &quot;,
+                    &quot;CMD [\&quot;httpd-foreground\&quot;]&quot;
+                ],
+                &quot;Image&quot;: &quot;sha256:d0b684e1759e15bc826cb0e3512b7cd68937121746a48145dde6538b8789081e&quot;,
+                &quot;Volumes&quot;: null,
+                &quot;WorkingDir&quot;: &quot;/usr/local/apache2&quot;,
+                &quot;Entrypoint&quot;: null,
+                &quot;OnBuild&quot;: null,
+                &quot;Labels&quot;: {},
+                &quot;StopSignal&quot;: &quot;SIGWINCH&quot;
+            },
+            &quot;DockerVersion&quot;: &quot;20.10.12&quot;,
+            &quot;Author&quot;: &quot;&quot;,
+            &quot;Config&quot;: {
+                &quot;Hostname&quot;: &quot;&quot;,
+                &quot;Domainname&quot;: &quot;&quot;,
+                &quot;User&quot;: &quot;&quot;,
+                &quot;AttachStdin&quot;: false,
+                &quot;AttachStdout&quot;: false,
+                &quot;AttachStderr&quot;: false,
+                &quot;ExposedPorts&quot;: {
+                    &quot;80/tcp&quot;: {}
+                },
+                &quot;Tty&quot;: false,
+                &quot;OpenStdin&quot;: false,
+                &quot;StdinOnce&quot;: false,
+                &quot;Env&quot;: [
+                    &quot;PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;,
+                    &quot;HTTPD_PREFIX=/usr/local/apache2&quot;,
+                    &quot;HTTPD_VERSION=2.4.54&quot;,
+                    &quot;HTTPD_SHA256=eb397feeefccaf254f8d45de3768d9d68e8e73851c49afd5b7176d1ecf80c340&quot;,
+                    &quot;HTTPD_PATCHES=&quot;
+                ],
+                &quot;Cmd&quot;: [
+                    &quot;httpd-foreground&quot;
+                ],
+                &quot;Image&quot;: &quot;sha256:d0b684e1759e15bc826cb0e3512b7cd68937121746a48145dde6538b8789081e&quot;,
+                &quot;Volumes&quot;: null,
+                &quot;WorkingDir&quot;: &quot;/usr/local/apache2&quot;,
+                &quot;Entrypoint&quot;: null,
+                &quot;OnBuild&quot;: null,
+                &quot;Labels&quot;: null,
+                &quot;StopSignal&quot;: &quot;SIGWINCH&quot;
+            },
+            &quot;Architecture&quot;: &quot;amd64&quot;,
+            &quot;Os&quot;: &quot;linux&quot;,
+            &quot;Size&quot;: 145156218,
+            &quot;VirtualSize&quot;: 145156218,
+            &quot;GraphDriver&quot;: {
+                &quot;Data&quot;: {
+                    &quot;LowerDir&quot;: &quot;/var/lib/docker/overlay2/927b2961c09d9a0c9a204015130b7d9822e3e319b19a5a0ace819e91812c7428/diff:/var/lib/docker/overlay2/dc084f87bad9dbf8966261b474ac905346d499a7369420526b9ccd0d65d2a9a4/diff:/var/lib/docker/overlay2/076e45a739721a435befa3ea97ef3002ea09ac7eaf6c8c4e3c45124dc42517bd/diff:/var/lib/docker/overlay2/349c8fd143ffa209f223aff9083f5624512ff8b7cd2c9b0f4442d5ee7160a2da/diff&quot;,
+                    &quot;MergedDir&quot;: &quot;/var/lib/docker/overlay2/752709f47c30c1025f8232f16cf19b0fb073e84fc4d5153e9b163494370b746a/merged&quot;,
+                    &quot;UpperDir&quot;: &quot;/var/lib/docker/overlay2/752709f47c30c1025f8232f16cf19b0fb073e84fc4d5153e9b163494370b746a/diff&quot;,
+                    &quot;WorkDir&quot;: &quot;/var/lib/docker/overlay2/752709f47c30c1025f8232f16cf19b0fb073e84fc4d5153e9b163494370b746a/work&quot;
+                },
+                &quot;Name&quot;: &quot;overlay2&quot;
+            },
+            &quot;RootFS&quot;: {
+                &quot;Type&quot;: &quot;layers&quot;,
+                &quot;Layers&quot;: [
+                    &quot;sha256:8a70d251b65364698f195f5a0b424e0d67de81307b79afbe662abd797068a069&quot;,
+                    &quot;sha256:28a8796736c9f1e79a3564da0ac898fda971e0e5e9325ab3ef4c7dd67f9d8a76&quot;,
+                    &quot;sha256:7f754426121fd50fc1c1a0b32feafe91c25c4d1866b097e1a5e675dd32ed75ef&quot;,
+                    &quot;sha256:e4e39a1ab63dffb3edf3c99454430377ca706dfc71076d893d78ded452873c80&quot;,
+                    &quot;sha256:eeed9f7c3966c799843e331d7370c6e283802812ed967092c4c8c3b4c7dfd2a7&quot;
+                ]
+            },
+            &quot;Metadata&quot;: {
+                &quot;LastTagTime&quot;: &quot;0001-01-01T00:00:00Z&quot;
+            }
+        }
+    ]
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker ps
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker run httpd:2.4.54
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    [Thu Jan 05 05:49:58.480408 2023] [mpm_event:notice] [pid 1:tid 140578728373568] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
+    [Thu Jan 05 05:49:58.480476 2023] [core:notice] [pid 1:tid 140578728373568] AH00094: Command line: &apos;httpd -D FOREGROUND&apos;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ^C[Thu Jan 05 05:52:18.332929 2023] [mpm_event:notice] [pid 1:tid 140578728373568] AH00491: caught SIGTERM, shutting down
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docer run -p3080:80 httpd
+    
+    Command &apos;docer&apos; not found, did you mean:
+    
+      command &apos;docker&apos; from snap docker (20.10.17)
+      command &apos;docker&apos; from deb docker.io (20.10.12-0ubuntu2~20.04.1)
+    
+    See &apos;snap info &lt;snapname&gt;&apos; for additional versions.
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker run -p3080:80 httpd
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    AH00558: httpd: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+    [Thu Jan 05 05:54:40.356349 2023] [mpm_event:notice] [pid 1:tid 140265708727616] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
+    [Thu Jan 05 05:54:40.356419 2023] [core:notice] [pid 1:tid 140265708727616] AH00094: Command line: &apos;httpd -D FOREGROUND&apos;
+    172.17.0.1 - - [05/Jan/2023:05:54:52 +0000] &quot;GET / HTTP/1.1&quot; 200 45
+    172.17.0.1 - - [05/Jan/2023:05:54:52 +0000] &quot;GET /favicon.ico HTTP/1.1&quot; 404 196
+    [Thu Jan 05 05:55:47.912491 2023] [mpm_event:notice] [pid 1:tid 140265708727616] AH00492: caught SIGWINCH, shutting down gracefully
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ dockerps
+    dockerps: command not found
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ docker ps
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ ipconfig
+    
+    Command &apos;ipconfig&apos; not found, did you mean:
+    
+      command &apos;ifconfig&apos; from deb net-tools (1.60+git20180626.aebd88e-1ubuntu1)
+      command &apos;iwconfig&apos; from deb wireless-tools (30~pre9-13ubuntu1)
+      command &apos;iconfig&apos; from deb ipmiutil (3.1.5-1)
+    
+    Try: sudo apt install &lt;deb name&gt;
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ ifconfig
+    
+    Command &apos;ifconfig&apos; not found, but can be installed with:
+    
+    sudo apt install net-tools
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ if config
+    &gt; 
+    &gt; 
+    &gt; 
+    &gt; ^C
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo apt install net-tools
+    [sudo] password for ozone: 
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    The following NEW packages will be installed:
+      net-tools
+    0 upgraded, 1 newly installed, 0 to remove and 131 not upgraded.
+    Need to get 196 kB of archives.
+    After this operation, 864 kB of additional disk space will be used.
+    Get:1 http://in.archive.ubuntu.com/ubuntu focal/main amd64 net-tools amd64 1.60+git20180626.aebd88e-1ubuntu1 [196 kB]
+    Fetched 196 kB in 1s (172 kB/s)<font color="#C4A000">     </font>
+    Selecting previously unselected package net-tools.
+    (Reading database ... 195796 files and directories currently installed.)
+    Preparing to unpack .../net-tools_1.60+git20180626.aebd88e-1ubuntu1_amd64.deb ...
+    Unpacking net-tools (1.60+git20180626.aebd88e-1ubuntu1) ...
+    Setting up net-tools (1.60+git20180626.aebd88e-1ubuntu1) ...
+    Processing triggers for man-db (2.9.1-1) ...
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ ifconfig
+    docker0: flags=4099&lt;UP,BROADCAST,MULTICAST&gt;  mtu 1500
+            inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+            inet6 fe80::42:5eff:fe5e:1437  prefixlen 64  scopeid 0x20&lt;link&gt;
+            ether 02:42:5e:5e:14:37  txqueuelen 0  (Ethernet)
+            RX packets 7  bytes 1084 (1.0 KB)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 22  bytes 3117 (3.1 KB)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+    
+    lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
+            inet 127.0.0.1  netmask 255.0.0.0
+            inet6 ::1  prefixlen 128  scopeid 0x10&lt;host&gt;
+            loop  txqueuelen 1000  (Local Loopback)
+            RX packets 3438  bytes 401636 (401.6 KB)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 3438  bytes 401636 (401.6 KB)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+    
+    wlo1: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;  mtu 1500
+            inet 192.168.51.197  netmask 255.255.255.0  broadcast 192.168.51.255
+            inet6 fe80::5023:5b73:7ab5:f6a2  prefixlen 64  scopeid 0x20&lt;link&gt;
+            ether f8:e4:e3:10:b2:15  txqueuelen 1000  (Ethernet)
+            RX packets 610509  bytes 891987900 (891.9 MB)
+            RX errors 0  dropped 5  overruns 0  frame 0
+            TX packets 56769  bytes 7900311 (7.9 MB)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sockstats
+    
+    Command &apos;sockstats&apos; not found, did you mean:
+    
+      command &apos;sockstat&apos; from deb sockstat (0.4.1-1)
+    
+    Try: sudo apt install &lt;deb name&gt;
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo netstat -tulpn | grep LISTEN
+    tcp        0      0 127.0.0.1:631           0.0.0.0:*               <font color="#CC0000"><b>LISTEN</b></font>      751/cupsd           
+    tcp        0      0 127.0.0.53:53           0.0.0.0:*               <font color="#CC0000"><b>LISTEN</b></font>      695/systemd-resolve 
+    tcp6       0      0 ::1:631                 :::*                    <font color="#CC0000"><b>LISTEN</b></font>      751/cupsd           
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ minikube status
+    
+    Command &apos;minikube&apos; not found, did you mean:
+    
+      command &apos;minitube&apos; from deb minitube (3.1-1build1)
+    
+    Try: sudo apt install &lt;deb name&gt;
+    
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+    100 73.1M  100 73.1M    0     0  33.8M      0  0:00:02  0:00:02 --:--:-- 33.8M
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+    [sudo] password for ozone: 
+    install: cannot create regular file &apos;/usr/local/bin/minikube&apos;: No such file or directory
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo mkdir -p /usr/local/bin
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ minikube
+    minikube provisions and manages local Kubernetes clusters optimized for development workflows.
+    
+    Basic Commands:
+      start            Starts a local Kubernetes cluster
+      status           Gets the status of a local Kubernetes cluster
+      stop             Stops a running local Kubernetes cluster
+      delete           Deletes a local Kubernetes cluster
+      dashboard        Access the Kubernetes dashboard running within the minikube cluster
+      pause            pause Kubernetes
+      unpause          unpause Kubernetes
+    
+    Images Commands:
+      docker-env       Provides instructions to point your terminal&apos;s docker-cli to the Docker Engine inside minikube.
+    (Useful for building docker images directly inside minikube)
+      podman-env       Configure environment to use minikube&apos;s Podman service
+      cache            Manage cache for images
+      image            Manage images
+    
+    Configuration and Management Commands:
+      addons           Enable or disable a minikube addon
+      config           Modify persistent configuration values
+      profile          Get or list the current profiles (clusters)
+      update-context   Update kubeconfig in case of an IP or port change
+    
+    Networking and Connectivity Commands:
+      service          Returns a URL to connect to a service
+      tunnel           Connect to LoadBalancer services
+    
+    Advanced Commands:
+      mount            Mounts the specified directory into minikube
+      ssh              Log into the minikube environment (for debugging)
+      kubectl          Run a kubectl binary matching the cluster version
+      node             Add, remove, or list additional nodes
+      cp               Copy the specified file into minikube
+    
+    Troubleshooting Commands:
+      ssh-key          Retrieve the ssh identity key path of the specified node
+      ssh-host         Retrieve the ssh host key of the specified node
+      ip               Retrieves the IP address of the specified node
+      logs             Returns logs to debug a local Kubernetes cluster
+      update-check     Print current and latest version number
+      version          Print the version of minikube
+      options          Show a list of global command-line options (applies to all commands).
+      license          Outputs the licenses of dependencies to a directory
+    
+    Other Commands:
+      completion       Generate command completion for a shell
+    
+    Use &quot;minikube &lt;command&gt; --help&quot; for more information about a given command.
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ minikube status
+    🤷  Profile &quot;minikube&quot; not found. Run &quot;minikube profile list&quot; to view all profiles.
+    👉  To start a cluster, run: &quot;minikube start&quot;
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ which minikube
+    /usr/local/bin/minikube
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ curl -LO &quot;https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl&quot;
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+    100   138  100   138    0     0    274      0 --:--:-- --:--:-- --:--:--   274
+    100 45.7M  100 45.7M    0     0  19.5M      0  0:00:02  0:00:02 --:--:-- 26.3M
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ which kubectl
+    /usr/local/bin/kubectl
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ minikube start
+    😄  minikube v1.28.0 on Ubuntu 20.04
+    ✨  Automatically selected the docker driver. Other choices: none, ssh
+    📌  Using Docker driver with root privileges
+    👍  Starting control plane node minikube in cluster minikube
+    🚜  Pulling base image ...
+    💾  Downloading Kubernetes v1.25.3 preload ...
+        &gt; preloaded-images-k8s-v18-v1...:  385.44 MiB / 385.44 MiB  100.00% 29.86 M
+        &gt; gcr.io/k8s-minikube/kicbase:  386.27 MiB / 386.27 MiB  100.00% 9.50 MiB p
+        &gt; gcr.io/k8s-minikube/kicbase:  0 B [________________________] ?% ? p/s 43s
+    🔥  Creating docker container (CPUs=2, Memory=7900MB) ...
+    🐳  Preparing Kubernetes v1.25.3 on Docker 20.10.20 ...
+        ▪ Generating certificates and keys ...
+        ▪ Booting up control plane ...
+        ▪ Configuring RBAC rules ...
+    🔎  Verifying Kubernetes components...
+        ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+    🌟  Enabled addons: default-storageclass, storage-provisioner
+    🏄  Done! kubectl is now configured to use &quot;minikube&quot; cluster and &quot;default&quot; namespace by default
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl config get-contexts
+    CURRENT   NAME       CLUSTER    AUTHINFO   NAMESPACE
+    *         minikube   minikube   minikube   default
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl versiom
+    error: unknown command &quot;versiom&quot; for &quot;kubectl&quot;
+    
+    Did you mean this?
+        version
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl version
+    WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.
+    Client Version: version.Info{Major:&quot;1&quot;, Minor:&quot;26&quot;, GitVersion:&quot;v1.26.0&quot;, GitCommit:&quot;b46a3f887ca979b1a5d14fd39cb1af43e7e5d12d&quot;, GitTreeState:&quot;clean&quot;, BuildDate:&quot;2022-12-08T19:58:30Z&quot;, GoVersion:&quot;go1.19.4&quot;, Compiler:&quot;gc&quot;, Platform:&quot;linux/amd64&quot;}
+    Kustomize Version: v4.5.7
+    Server Version: version.Info{Major:&quot;1&quot;, Minor:&quot;25&quot;, GitVersion:&quot;v1.25.3&quot;, GitCommit:&quot;434bfd82814af038ad94d62ebe59b133fcb50506&quot;, GitTreeState:&quot;clean&quot;, BuildDate:&quot;2022-10-12T10:49:09Z&quot;, GoVersion:&quot;go1.19.2&quot;, Compiler:&quot;gc&quot;, Platform:&quot;linux/amd64&quot;}
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl get namespaces
+    NAME              STATUS   AGE
+    default           Active   4m29s
+    kube-node-lease   Active   4m31s
+    kube-public       Active   4m31s
+    kube-system       Active   4m31s
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl get pods -n kube-system
+    NAME                               READY   STATUS    RESTARTS       AGE
+    coredns-565d847f94-6hn5x           1/1     Running   0              4m38s
+    etcd-minikube                      1/1     Running   0              4m47s
+    kube-apiserver-minikube            1/1     Running   0              4m47s
+    kube-controller-manager-minikube   1/1     Running   0              4m47s
+    kube-proxy-mdshj                   1/1     Running   0              4m38s
+    kube-scheduler-minikube            1/1     Running   0              4m47s
+    storage-provisioner                1/1     Running   1 (4m7s ago)   4m44s
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl get pod -A
+    NAMESPACE     NAME                               READY   STATUS    RESTARTS        AGE
+    kube-system   coredns-565d847f94-6hn5x           1/1     Running   0               4m57s
+    kube-system   etcd-minikube                      1/1     Running   0               5m6s
+    kube-system   kube-apiserver-minikube            1/1     Running   0               5m6s
+    kube-system   kube-controller-manager-minikube   1/1     Running   0               5m6s
+    kube-system   kube-proxy-mdshj                   1/1     Running   0               4m57s
+    kube-system   kube-scheduler-minikube            1/1     Running   0               5m6s
+    kube-system   storage-provisioner                1/1     Running   1 (4m26s ago)   5m3s
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl apply -f my-first-deployment.yml
+    error: the path &quot;my-first-deployment.yml&quot; does not exist
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl apply -f my-first-deployment.yml
+    error: the path &quot;my-first-deployment.yml&quot; does not exist
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ kubectl apply -f my-first-deployment.yaml
+    error: the path &quot;my-first-deployment.yaml&quot; does not exist
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Downloads/
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ kubectl apply -f my-first-deployment.yaml
+    deployment.apps/nginx-deployment created
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ watch kubectl get pods -A
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ watch kubectl get pods -A
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ kubectl describe pod -A
+    Name:             nginx-deployment-7fb96c846b-ltq7x
+    Namespace:        default
+    Priority:         0
+    Service Account:  default
+    Node:             minikube/192.168.49.2
+    Start Time:       Thu, 05 Jan 2023 12:39:55 +0530
+    Labels:           app=nginx
+                      pod-template-hash=7fb96c846b
+    Annotations:      &lt;none&gt;
+    Status:           Running
+    IP:               172.17.0.4
+    IPs:
+      IP:           172.17.0.4
+    Controlled By:  ReplicaSet/nginx-deployment-7fb96c846b
+    Containers:
+      nginx:
+        Container ID:   docker://c5d4f62012f7f540c95700370e2aa8c99152dc2732b844d9bb36e10753c03673
+        Image:          nginx:1.14.2
+        Image ID:       docker-pullable://nginx@sha256:f7988fb6c02e0ce69257d9bd9cf37ae20a60f1df7563c3a2a6abe24160306b8d
+        Port:           80/TCP
+        Host Port:      0/TCP
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:40:08 +0530
+        Ready:          True
+        Restart Count:  0
+        Environment:    &lt;none&gt;
+        Mounts:
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-924gz (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      kube-api-access-924gz:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   BestEffort
+    Node-Selectors:              &lt;none&gt;
+    Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+    Events:
+      Type    Reason     Age    From               Message
+      ----    ------     ----   ----               -------
+      Normal  Scheduled  5m27s  default-scheduler  Successfully assigned default/nginx-deployment-7fb96c846b-ltq7x to minikube
+      Normal  Pulling    5m26s  kubelet            Pulling image &quot;nginx:1.14.2&quot;
+      Normal  Pulled     5m14s  kubelet            Successfully pulled image &quot;nginx:1.14.2&quot; in 11.419206098s
+      Normal  Created    5m14s  kubelet            Created container nginx
+      Normal  Started    5m14s  kubelet            Started container nginx
+    
+    
+    Name:             nginx-deployment-7fb96c846b-pjbzm
+    Namespace:        default
+    Priority:         0
+    Service Account:  default
+    Node:             minikube/192.168.49.2
+    Start Time:       Thu, 05 Jan 2023 12:39:55 +0530
+    Labels:           app=nginx
+                      pod-template-hash=7fb96c846b
+    Annotations:      &lt;none&gt;
+    Status:           Running
+    IP:               172.17.0.3
+    IPs:
+      IP:           172.17.0.3
+    Controlled By:  ReplicaSet/nginx-deployment-7fb96c846b
+    Containers:
+      nginx:
+        Container ID:   docker://cdfa451bab0c16eee621c650ffa3ec4ae0ba34088b3306c4de6c3b9012bf6d5b
+        Image:          nginx:1.14.2
+        Image ID:       docker-pullable://nginx@sha256:f7988fb6c02e0ce69257d9bd9cf37ae20a60f1df7563c3a2a6abe24160306b8d
+        Port:           80/TCP
+        Host Port:      0/TCP
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:40:11 +0530
+        Ready:          True
+        Restart Count:  0
+        Environment:    &lt;none&gt;
+        Mounts:
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-2qjw8 (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      kube-api-access-2qjw8:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   BestEffort
+    Node-Selectors:              &lt;none&gt;
+    Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+    Events:
+      Type    Reason     Age    From               Message
+      ----    ------     ----   ----               -------
+      Normal  Scheduled  5m27s  default-scheduler  Successfully assigned default/nginx-deployment-7fb96c846b-pjbzm to minikube
+      Normal  Pulling    5m26s  kubelet            Pulling image &quot;nginx:1.14.2&quot;
+      Normal  Pulled     5m11s  kubelet            Successfully pulled image &quot;nginx:1.14.2&quot; in 14.515008566s
+      Normal  Created    5m11s  kubelet            Created container nginx
+      Normal  Started    5m11s  kubelet            Started container nginx
+    
+    
+    Name:                 coredns-565d847f94-6hn5x
+    Namespace:            kube-system
+    Priority:             2000000000
+    Priority Class Name:  system-cluster-critical
+    Service Account:      coredns
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:26 +0530
+    Labels:               k8s-app=kube-dns
+                          pod-template-hash=565d847f94
+    Annotations:          &lt;none&gt;
+    Status:               Running
+    IP:                   172.17.0.2
+    IPs:
+      IP:           172.17.0.2
+    Controlled By:  ReplicaSet/coredns-565d847f94
+    Containers:
+      coredns:
+        Container ID:  docker://6bf53ddb0a04648f480af76f1279dfdfe70e43cc7690be7db731319030b34973
+        Image:         registry.k8s.io/coredns/coredns:v1.9.3
+        Image ID:      docker-pullable://registry.k8s.io/coredns/coredns@sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a
+        Ports:         53/UDP, 53/TCP, 9153/TCP
+        Host Ports:    0/UDP, 0/TCP, 0/TCP
+        Args:
+          -conf
+          /etc/coredns/Corefile
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:30:28 +0530
+        Ready:          True
+        Restart Count:  0
+        Limits:
+          memory:  170Mi
+        Requests:
+          cpu:        100m
+          memory:     70Mi
+        Liveness:     http-get http://:8080/health delay=60s timeout=5s period=10s #success=1 #failure=5
+        Readiness:    http-get http://:8181/ready delay=0s timeout=1s period=10s #success=1 #failure=3
+        Environment:  &lt;none&gt;
+        Mounts:
+          /etc/coredns from config-volume (ro)
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-ppzlm (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      config-volume:
+        Type:      ConfigMap (a volume populated by a ConfigMap)
+        Name:      coredns
+        Optional:  false
+      kube-api-access-ppzlm:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   Burstable
+    Node-Selectors:              kubernetes.io/os=linux
+    Tolerations:                 CriticalAddonsOnly op=Exists
+                                 node-role.kubernetes.io/control-plane:NoSchedule
+                                 node-role.kubernetes.io/master:NoSchedule
+                                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+    Events:
+      Type    Reason     Age   From               Message
+      ----    ------     ----  ----               -------
+      Normal  Scheduled  14m   default-scheduler  Successfully assigned kube-system/coredns-565d847f94-6hn5x to minikube
+      Normal  Pulled     14m   kubelet            Container image &quot;registry.k8s.io/coredns/coredns:v1.9.3&quot; already present on machine
+      Normal  Created    14m   kubelet            Created container coredns
+      Normal  Started    14m   kubelet            Started container coredns
+    
+    
+    Name:                 etcd-minikube
+    Namespace:            kube-system
+    Priority:             2000001000
+    Priority Class Name:  system-node-critical
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:17 +0530
+    Labels:               component=etcd
+                          tier=control-plane
+    Annotations:          kubeadm.kubernetes.io/etcd.advertise-client-urls: https://192.168.49.2:2379
+                          kubernetes.io/config.hash: bd495b7643dfc9d3194bd002e968bc3d
+                          kubernetes.io/config.mirror: bd495b7643dfc9d3194bd002e968bc3d
+                          kubernetes.io/config.seen: 2023-01-05T07:00:16.185105395Z
+                          kubernetes.io/config.source: file
+    Status:               Running
+    IP:                   192.168.49.2
+    IPs:
+      IP:           192.168.49.2
+    Controlled By:  Node/minikube
+    Containers:
+      etcd:
+        Container ID:  docker://fc5800ae5bfa69532054d8b8362b02260ede7f8cba61faa5edc151e9bca51c09
+        Image:         registry.k8s.io/etcd:3.5.4-0
+        Image ID:      docker-pullable://registry.k8s.io/etcd@sha256:6f72b851544986cb0921b53ea655ec04c36131248f16d4ad110cb3ca0c369dc1
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          etcd
+          --advertise-client-urls=https://192.168.49.2:2379
+          --cert-file=/var/lib/minikube/certs/etcd/server.crt
+          --client-cert-auth=true
+          --data-dir=/var/lib/minikube/etcd
+          --experimental-initial-corrupt-check=true
+          --experimental-watch-progress-notify-interval=5s
+          --initial-advertise-peer-urls=https://192.168.49.2:2380
+          --initial-cluster=minikube=https://192.168.49.2:2380
+          --key-file=/var/lib/minikube/certs/etcd/server.key
+          --listen-client-urls=https://127.0.0.1:2379,https://192.168.49.2:2379
+          --listen-metrics-urls=http://127.0.0.1:2381
+          --listen-peer-urls=https://192.168.49.2:2380
+          --name=minikube
+          --peer-cert-file=/var/lib/minikube/certs/etcd/peer.crt
+          --peer-client-cert-auth=true
+          --peer-key-file=/var/lib/minikube/certs/etcd/peer.key
+          --peer-trusted-ca-file=/var/lib/minikube/certs/etcd/ca.crt
+          --proxy-refresh-interval=70000
+          --snapshot-count=10000
+          --trusted-ca-file=/var/lib/minikube/certs/etcd/ca.crt
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:29:58 +0530
+        Ready:          True
+        Restart Count:  0
+        Requests:
+          cpu:        100m
+          memory:     100Mi
+        Liveness:     http-get http://127.0.0.1:2381/health%3Fexclude=NOSPACE&amp;serializable=true delay=10s timeout=15s period=10s #success=1 #failure=8
+        Startup:      http-get http://127.0.0.1:2381/health%3Fserializable=false delay=10s timeout=15s period=10s #success=1 #failure=24
+        Environment:  &lt;none&gt;
+        Mounts:
+          /var/lib/minikube/certs/etcd from etcd-certs (rw)
+          /var/lib/minikube/etcd from etcd-data (rw)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      etcd-certs:
+        Type:          HostPath (bare host directory volume)
+        Path:          /var/lib/minikube/certs/etcd
+        HostPathType:  DirectoryOrCreate
+      etcd-data:
+        Type:          HostPath (bare host directory volume)
+        Path:          /var/lib/minikube/etcd
+        HostPathType:  DirectoryOrCreate
+    QoS Class:         Burstable
+    Node-Selectors:    &lt;none&gt;
+    Tolerations:       :NoExecute op=Exists
+    Events:
+      Type    Reason   Age   From     Message
+      ----    ------   ----  ----     -------
+      Normal  Pulled   15m   kubelet  Container image &quot;registry.k8s.io/etcd:3.5.4-0&quot; already present on machine
+      Normal  Created  15m   kubelet  Created container etcd
+      Normal  Started  15m   kubelet  Started container etcd
+    
+    
+    Name:                 kube-apiserver-minikube
+    Namespace:            kube-system
+    Priority:             2000001000
+    Priority Class Name:  system-node-critical
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:17 +0530
+    Labels:               component=kube-apiserver
+                          tier=control-plane
+    Annotations:          kubeadm.kubernetes.io/kube-apiserver.advertise-address.endpoint: 192.168.49.2:8443
+                          kubernetes.io/config.hash: bd8b8fe30652798a5ae3fc51e66ef681
+                          kubernetes.io/config.mirror: bd8b8fe30652798a5ae3fc51e66ef681
+                          kubernetes.io/config.seen: 2023-01-05T07:00:16.185196672Z
+                          kubernetes.io/config.source: file
+    Status:               Running
+    IP:                   192.168.49.2
+    IPs:
+      IP:           192.168.49.2
+    Controlled By:  Node/minikube
+    Containers:
+      kube-apiserver:
+        Container ID:  docker://21c0b857dd1c9e45f60c7fc6c6071a918e7f2985b32316a392236a79661ac255
+        Image:         registry.k8s.io/kube-apiserver:v1.25.3
+        Image ID:      docker-pullable://registry.k8s.io/kube-apiserver@sha256:4188262a351f156e8027ff81693d771c35b34b668cbd61e59c4a4490dd5c08f3
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          kube-apiserver
+          --advertise-address=192.168.49.2
+          --allow-privileged=true
+          --authorization-mode=Node,RBAC
+          --client-ca-file=/var/lib/minikube/certs/ca.crt
+          --enable-admission-plugins=NamespaceLifecycle,LimitRanger,ServiceAccount,DefaultStorageClass,DefaultTolerationSeconds,NodeRestriction,MutatingAdmissionWebhook,ValidatingAdmissionWebhook,ResourceQuota
+          --enable-bootstrap-token-auth=true
+          --etcd-cafile=/var/lib/minikube/certs/etcd/ca.crt
+          --etcd-certfile=/var/lib/minikube/certs/apiserver-etcd-client.crt
+          --etcd-keyfile=/var/lib/minikube/certs/apiserver-etcd-client.key
+          --etcd-servers=https://127.0.0.1:2379
+          --kubelet-client-certificate=/var/lib/minikube/certs/apiserver-kubelet-client.crt
+          --kubelet-client-key=/var/lib/minikube/certs/apiserver-kubelet-client.key
+          --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname
+          --proxy-client-cert-file=/var/lib/minikube/certs/front-proxy-client.crt
+          --proxy-client-key-file=/var/lib/minikube/certs/front-proxy-client.key
+          --requestheader-allowed-names=front-proxy-client
+          --requestheader-client-ca-file=/var/lib/minikube/certs/front-proxy-ca.crt
+          --requestheader-extra-headers-prefix=X-Remote-Extra-
+          --requestheader-group-headers=X-Remote-Group
+          --requestheader-username-headers=X-Remote-User
+          --secure-port=8443
+          --service-account-issuer=https://kubernetes.default.svc.cluster.local
+          --service-account-key-file=/var/lib/minikube/certs/sa.pub
+          --service-account-signing-key-file=/var/lib/minikube/certs/sa.key
+          --service-cluster-ip-range=10.96.0.0/12
+          --tls-cert-file=/var/lib/minikube/certs/apiserver.crt
+          --tls-private-key-file=/var/lib/minikube/certs/apiserver.key
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:29:57 +0530
+        Ready:          True
+        Restart Count:  0
+        Requests:
+          cpu:        250m
+        Liveness:     http-get https://192.168.49.2:8443/livez delay=10s timeout=15s period=10s #success=1 #failure=8
+        Readiness:    http-get https://192.168.49.2:8443/readyz delay=0s timeout=15s period=1s #success=1 #failure=3
+        Startup:      http-get https://192.168.49.2:8443/livez delay=10s timeout=15s period=10s #success=1 #failure=24
+        Environment:  &lt;none&gt;
+        Mounts:
+          /etc/ca-certificates from etc-ca-certificates (ro)
+          /etc/ssl/certs from ca-certs (ro)
+          /usr/local/share/ca-certificates from usr-local-share-ca-certificates (ro)
+          /usr/share/ca-certificates from usr-share-ca-certificates (ro)
+          /var/lib/minikube/certs from k8s-certs (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      ca-certs:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/ssl/certs
+        HostPathType:  DirectoryOrCreate
+      etc-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/ca-certificates
+        HostPathType:  DirectoryOrCreate
+      k8s-certs:
+        Type:          HostPath (bare host directory volume)
+        Path:          /var/lib/minikube/certs
+        HostPathType:  DirectoryOrCreate
+      usr-local-share-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /usr/local/share/ca-certificates
+        HostPathType:  DirectoryOrCreate
+      usr-share-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /usr/share/ca-certificates
+        HostPathType:  DirectoryOrCreate
+    QoS Class:         Burstable
+    Node-Selectors:    &lt;none&gt;
+    Tolerations:       :NoExecute op=Exists
+    Events:
+      Type    Reason   Age   From     Message
+      ----    ------   ----  ----     -------
+      Normal  Pulled   15m   kubelet  Container image &quot;registry.k8s.io/kube-apiserver:v1.25.3&quot; already present on machine
+      Normal  Created  15m   kubelet  Created container kube-apiserver
+      Normal  Started  15m   kubelet  Started container kube-apiserver
+    
+    
+    Name:                 kube-controller-manager-minikube
+    Namespace:            kube-system
+    Priority:             2000001000
+    Priority Class Name:  system-node-critical
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:17 +0530
+    Labels:               component=kube-controller-manager
+                          tier=control-plane
+    Annotations:          kubernetes.io/config.hash: 91c789ffd31943242ef457881ac1824a
+                          kubernetes.io/config.mirror: 91c789ffd31943242ef457881ac1824a
+                          kubernetes.io/config.seen: 2023-01-05T07:00:16.185204136Z
+                          kubernetes.io/config.source: file
+    Status:               Running
+    IP:                   192.168.49.2
+    IPs:
+      IP:           192.168.49.2
+    Controlled By:  Node/minikube
+    Containers:
+      kube-controller-manager:
+        Container ID:  docker://ae46af1affd78ce2506bafdf954e2789dc729ba76ddcb677a3422c2a8e173c76
+        Image:         registry.k8s.io/kube-controller-manager:v1.25.3
+        Image ID:      docker-pullable://registry.k8s.io/kube-controller-manager@sha256:d3a06262256f3e7578d5f77df137a8cdf58f9f498f35b5b56d116e8a7e31dc91
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          kube-controller-manager
+          --allocate-node-cidrs=true
+          --authentication-kubeconfig=/etc/kubernetes/controller-manager.conf
+          --authorization-kubeconfig=/etc/kubernetes/controller-manager.conf
+          --bind-address=127.0.0.1
+          --client-ca-file=/var/lib/minikube/certs/ca.crt
+          --cluster-cidr=10.244.0.0/16
+          --cluster-name=mk
+          --cluster-signing-cert-file=/var/lib/minikube/certs/ca.crt
+          --cluster-signing-key-file=/var/lib/minikube/certs/ca.key
+          --controllers=*,bootstrapsigner,tokencleaner
+          --kubeconfig=/etc/kubernetes/controller-manager.conf
+          --leader-elect=false
+          --requestheader-client-ca-file=/var/lib/minikube/certs/front-proxy-ca.crt
+          --root-ca-file=/var/lib/minikube/certs/ca.crt
+          --service-account-private-key-file=/var/lib/minikube/certs/sa.key
+          --service-cluster-ip-range=10.96.0.0/12
+          --use-service-account-credentials=true
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:29:57 +0530
+        Ready:          True
+        Restart Count:  0
+        Requests:
+          cpu:        200m
+        Liveness:     http-get https://127.0.0.1:10257/healthz delay=10s timeout=15s period=10s #success=1 #failure=8
+        Startup:      http-get https://127.0.0.1:10257/healthz delay=10s timeout=15s period=10s #success=1 #failure=24
+        Environment:  &lt;none&gt;
+        Mounts:
+          /etc/ca-certificates from etc-ca-certificates (ro)
+          /etc/kubernetes/controller-manager.conf from kubeconfig (ro)
+          /etc/ssl/certs from ca-certs (ro)
+          /usr/libexec/kubernetes/kubelet-plugins/volume/exec from flexvolume-dir (rw)
+          /usr/local/share/ca-certificates from usr-local-share-ca-certificates (ro)
+          /usr/share/ca-certificates from usr-share-ca-certificates (ro)
+          /var/lib/minikube/certs from k8s-certs (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      ca-certs:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/ssl/certs
+        HostPathType:  DirectoryOrCreate
+      etc-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/ca-certificates
+        HostPathType:  DirectoryOrCreate
+      flexvolume-dir:
+        Type:          HostPath (bare host directory volume)
+        Path:          /usr/libexec/kubernetes/kubelet-plugins/volume/exec
+        HostPathType:  DirectoryOrCreate
+      k8s-certs:
+        Type:          HostPath (bare host directory volume)
+        Path:          /var/lib/minikube/certs
+        HostPathType:  DirectoryOrCreate
+      kubeconfig:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/kubernetes/controller-manager.conf
+        HostPathType:  FileOrCreate
+      usr-local-share-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /usr/local/share/ca-certificates
+        HostPathType:  DirectoryOrCreate
+      usr-share-ca-certificates:
+        Type:          HostPath (bare host directory volume)
+        Path:          /usr/share/ca-certificates
+        HostPathType:  DirectoryOrCreate
+    QoS Class:         Burstable
+    Node-Selectors:    &lt;none&gt;
+    Tolerations:       :NoExecute op=Exists
+    Events:
+      Type    Reason   Age   From     Message
+      ----    ------   ----  ----     -------
+      Normal  Pulled   15m   kubelet  Container image &quot;registry.k8s.io/kube-controller-manager:v1.25.3&quot; already present on machine
+      Normal  Created  15m   kubelet  Created container kube-controller-manager
+      Normal  Started  15m   kubelet  Started container kube-controller-manager
+    
+    
+    Name:                 kube-proxy-mdshj
+    Namespace:            kube-system
+    Priority:             2000001000
+    Priority Class Name:  system-node-critical
+    Service Account:      kube-proxy
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:26 +0530
+    Labels:               controller-revision-hash=b9c5d5dc4
+                          k8s-app=kube-proxy
+                          pod-template-generation=1
+    Annotations:          &lt;none&gt;
+    Status:               Running
+    IP:                   192.168.49.2
+    IPs:
+      IP:           192.168.49.2
+    Controlled By:  DaemonSet/kube-proxy
+    Containers:
+      kube-proxy:
+        Container ID:  docker://f7f0cd373cf3d9bbf275d961828efd7174093ca3aa7471c153994d28e8eb6f66
+        Image:         registry.k8s.io/kube-proxy:v1.25.3
+        Image ID:      docker-pullable://registry.k8s.io/kube-proxy@sha256:6bf25f038543e1f433cb7f2bdda445ed348c7b9279935ebc2ae4f432308ed82f
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          /usr/local/bin/kube-proxy
+          --config=/var/lib/kube-proxy/config.conf
+          --hostname-override=$(NODE_NAME)
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:30:27 +0530
+        Ready:          True
+        Restart Count:  0
+        Environment:
+          NODE_NAME:   (v1:spec.nodeName)
+        Mounts:
+          /lib/modules from lib-modules (ro)
+          /run/xtables.lock from xtables-lock (rw)
+          /var/lib/kube-proxy from kube-proxy (rw)
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-m5tz8 (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      kube-proxy:
+        Type:      ConfigMap (a volume populated by a ConfigMap)
+        Name:      kube-proxy
+        Optional:  false
+      xtables-lock:
+        Type:          HostPath (bare host directory volume)
+        Path:          /run/xtables.lock
+        HostPathType:  FileOrCreate
+      lib-modules:
+        Type:          HostPath (bare host directory volume)
+        Path:          /lib/modules
+        HostPathType:  
+      kube-api-access-m5tz8:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   BestEffort
+    Node-Selectors:              kubernetes.io/os=linux
+    Tolerations:                 op=Exists
+                                 node.kubernetes.io/disk-pressure:NoSchedule op=Exists
+                                 node.kubernetes.io/memory-pressure:NoSchedule op=Exists
+                                 node.kubernetes.io/network-unavailable:NoSchedule op=Exists
+                                 node.kubernetes.io/not-ready:NoExecute op=Exists
+                                 node.kubernetes.io/pid-pressure:NoSchedule op=Exists
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists
+                                 node.kubernetes.io/unschedulable:NoSchedule op=Exists
+    Events:
+      Type    Reason     Age   From               Message
+      ----    ------     ----  ----               -------
+      Normal  Scheduled  14m   default-scheduler  Successfully assigned kube-system/kube-proxy-mdshj to minikube
+      Normal  Pulled     14m   kubelet            Container image &quot;registry.k8s.io/kube-proxy:v1.25.3&quot; already present on machine
+      Normal  Created    14m   kubelet            Created container kube-proxy
+      Normal  Started    14m   kubelet            Started container kube-proxy
+    
+    
+    Name:                 kube-scheduler-minikube
+    Namespace:            kube-system
+    Priority:             2000001000
+    Priority Class Name:  system-node-critical
+    Node:                 minikube/192.168.49.2
+    Start Time:           Thu, 05 Jan 2023 12:30:17 +0530
+    Labels:               component=kube-scheduler
+                          tier=control-plane
+    Annotations:          kubernetes.io/config.hash: 7e6ece94cd0950fdbbf66ddae1e4c53b
+                          kubernetes.io/config.mirror: 7e6ece94cd0950fdbbf66ddae1e4c53b
+                          kubernetes.io/config.seen: 2023-01-05T07:00:16.185209600Z
+                          kubernetes.io/config.source: file
+    Status:               Running
+    IP:                   192.168.49.2
+    IPs:
+      IP:           192.168.49.2
+    Controlled By:  Node/minikube
+    Containers:
+      kube-scheduler:
+        Container ID:  docker://ba3c83cf9f9cac1a7b69be7af8f51e9951a0e66e0245dc16629d03c514513ef5
+        Image:         registry.k8s.io/kube-scheduler:v1.25.3
+        Image ID:      docker-pullable://registry.k8s.io/kube-scheduler@sha256:f478aa916568b00269068ff1e9ff742ecc16192eb6e371e30f69f75df904162e
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          kube-scheduler
+          --authentication-kubeconfig=/etc/kubernetes/scheduler.conf
+          --authorization-kubeconfig=/etc/kubernetes/scheduler.conf
+          --bind-address=127.0.0.1
+          --kubeconfig=/etc/kubernetes/scheduler.conf
+          --leader-elect=false
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:29:57 +0530
+        Ready:          True
+        Restart Count:  0
+        Requests:
+          cpu:        100m
+        Liveness:     http-get https://127.0.0.1:10259/healthz delay=10s timeout=15s period=10s #success=1 #failure=8
+        Startup:      http-get https://127.0.0.1:10259/healthz delay=10s timeout=15s period=10s #success=1 #failure=24
+        Environment:  &lt;none&gt;
+        Mounts:
+          /etc/kubernetes/scheduler.conf from kubeconfig (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      kubeconfig:
+        Type:          HostPath (bare host directory volume)
+        Path:          /etc/kubernetes/scheduler.conf
+        HostPathType:  FileOrCreate
+    QoS Class:         Burstable
+    Node-Selectors:    &lt;none&gt;
+    Tolerations:       :NoExecute op=Exists
+    Events:
+      Type    Reason   Age   From     Message
+      ----    ------   ----  ----     -------
+      Normal  Pulled   15m   kubelet  Container image &quot;registry.k8s.io/kube-scheduler:v1.25.3&quot; already present on machine
+      Normal  Created  15m   kubelet  Created container kube-scheduler
+      Normal  Started  15m   kubelet  Started container kube-scheduler
+    
+    
+    Name:             storage-provisioner
+    Namespace:        kube-system
+    Priority:         0
+    Service Account:  storage-provisioner
+    Node:             minikube/192.168.49.2
+    Start Time:       Thu, 05 Jan 2023 12:30:25 +0530
+    Labels:           addonmanager.kubernetes.io/mode=Reconcile
+                      integration-test=storage-provisioner
+    Annotations:      &lt;none&gt;
+    Status:           Running
+    IP:               192.168.49.2
+    IPs:
+      IP:  192.168.49.2
+    Containers:
+      storage-provisioner:
+        Container ID:  docker://2fae3a924b889a4bd12caac908c7c795a5428992a3551aff5c914f5912e38b81
+        Image:         gcr.io/k8s-minikube/storage-provisioner:v5
+        Image ID:      docker-pullable://gcr.io/k8s-minikube/storage-provisioner@sha256:18eb69d1418e854ad5a19e399310e52808a8321e4c441c1dddad8977a0d7a944
+        Port:          &lt;none&gt;
+        Host Port:     &lt;none&gt;
+        Command:
+          /storage-provisioner
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:30:58 +0530
+        Last State:     Terminated
+          Reason:       Error
+          Exit Code:    1
+          Started:      Thu, 05 Jan 2023 12:30:27 +0530
+          Finished:     Thu, 05 Jan 2023 12:30:57 +0530
+        Ready:          True
+        Restart Count:  1
+        Environment:    &lt;none&gt;
+        Mounts:
+          /tmp from tmp (rw)
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-mtkqd (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      tmp:
+        Type:          HostPath (bare host directory volume)
+        Path:          /tmp
+        HostPathType:  Directory
+      kube-api-access-mtkqd:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   BestEffort
+    Node-Selectors:              &lt;none&gt;
+    Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+    Events:
+      Type     Reason            Age                From               Message
+      ----     ------            ----               ----               -------
+      Warning  FailedScheduling  15m                default-scheduler  0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/not-ready: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+      Normal   Scheduled         14m                default-scheduler  Successfully assigned kube-system/storage-provisioner to minikube
+      Warning  FailedMount       14m                kubelet            MountVolume.SetUp failed for volume &quot;kube-api-access-mtkqd&quot; : configmap &quot;kube-root-ca.crt&quot; not found
+      Normal   Pulled            14m (x2 over 14m)  kubelet            Container image &quot;gcr.io/k8s-minikube/storage-provisioner:v5&quot; already present on machine
+      Normal   Created           14m (x2 over 14m)  kubelet            Created container storage-provisioner
+      Normal   Started           14m (x2 over 14m)  kubelet            Started container storage-provisioner
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ kubectl describe pod nginx-deployment-7fb96c846b-ltq7x
+    Name:             nginx-deployment-7fb96c846b-ltq7x
+    Namespace:        default
+    Priority:         0
+    Service Account:  default
+    Node:             minikube/192.168.49.2
+    Start Time:       Thu, 05 Jan 2023 12:39:55 +0530
+    Labels:           app=nginx
+                      pod-template-hash=7fb96c846b
+    Annotations:      &lt;none&gt;
+    Status:           Running
+    IP:               172.17.0.4
+    IPs:
+      IP:           172.17.0.4
+    Controlled By:  ReplicaSet/nginx-deployment-7fb96c846b
+    Containers:
+      nginx:
+        Container ID:   docker://c5d4f62012f7f540c95700370e2aa8c99152dc2732b844d9bb36e10753c03673
+        Image:          nginx:1.14.2
+        Image ID:       docker-pullable://nginx@sha256:f7988fb6c02e0ce69257d9bd9cf37ae20a60f1df7563c3a2a6abe24160306b8d
+        Port:           80/TCP
+        Host Port:      0/TCP
+        State:          Running
+          Started:      Thu, 05 Jan 2023 12:40:08 +0530
+        Ready:          True
+        Restart Count:  0
+        Environment:    &lt;none&gt;
+        Mounts:
+          /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-924gz (ro)
+    Conditions:
+      Type              Status
+      Initialized       True 
+      Ready             True 
+      ContainersReady   True 
+      PodScheduled      True 
+    Volumes:
+      kube-api-access-924gz:
+        Type:                    Projected (a volume that contains injected data from multiple sources)
+        TokenExpirationSeconds:  3607
+        ConfigMapName:           kube-root-ca.crt
+        ConfigMapOptional:       &lt;nil&gt;
+        DownwardAPI:             true
+    QoS Class:                   BestEffort
+    Node-Selectors:              &lt;none&gt;
+    Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+    Events:
+      Type    Reason     Age    From               Message
+      ----    ------     ----   ----               -------
+      Normal  Scheduled  6m5s   default-scheduler  Successfully assigned default/nginx-deployment-7fb96c846b-ltq7x to minikube
+      Normal  Pulling    6m4s   kubelet            Pulling image &quot;nginx:1.14.2&quot;
+      Normal  Pulled     5m52s  kubelet            Successfully pulled image &quot;nginx:1.14.2&quot; in 11.419206098s
+      Normal  Created    5m52s  kubelet            Created container nginx
+      Normal  Started    5m52s  kubelet            Started container nginx
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ kubectl port-forward -n default pod/nginx-deployment-7fb96c846b-ltq7x 3080:80
+    Forwarding from 127.0.0.1:3080 -&gt; 80
+    Forwarding from [::1]:3080 -&gt; 80
+    Handling connection for 3080
+    ^C<font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ kubectl exec -it nginx-deployment-7fb96c846b-ltq7x -n default -- sh
+    # 
+    # 
+    # 
+    # ls
+    bin  boot  dev	etc  home  lib	lib64  media  mnt  opt	proc  root  run  sbin  srv  sys  tmp  usr  var
+    # cd media
+    # ls
+    # cd //
+    # cd ..
+    # ls
+    bin  boot  dev	etc  home  lib	lib64  media  mnt  opt	proc  root  run  sbin  srv  sys  tmp  usr  var
+    # cd media
+    # ls
+    # cd ..
+    # cat /etc/issue
+    Debian GNU/Linux 9 \n \l
+    
+    # apt-get update
+    Get:1 http://security.debian.org/debian-security stretch/updates InRelease [59.1 kB]
+    Ign:2 http://deb.debian.org/debian stretch InRelease 
+    Get:3 http://deb.debian.org/debian stretch-updates InRelease [93.6 kB]
+    Get:4 http://deb.debian.org/debian stretch Release [118 kB]    
+    Get:5 http://deb.debian.org/debian stretch Release.gpg [3177 B]
+    Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [782 kB]
+    Get:7 http://deb.debian.org/debian stretch/main amd64 Packages [7080 kB]
+    Fetched 8135 kB in 1s (5768 kB/s)                       
+    Reading package lists... Done
+    # apt-get install procps
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    The following additional packages will be installed:
+      libprocps6 psmisc
+    The following NEW packages will be installed:
+      libprocps6 procps psmisc
+    0 upgraded, 3 newly installed, 0 to remove and 36 not upgraded.
+    Need to get 431 kB of archives.
+    After this operation, 1434 kB of additional disk space will be used.
+    Do you want to continue? [Y/n] y 
+    Get:1 http://deb.debian.org/debian stretch/main amd64 libprocps6 amd64 2:3.3.12-3+deb9u1 [58.5 kB]
+    Get:2 http://deb.debian.org/debian stretch/main amd64 procps amd64 2:3.3.12-3+deb9u1 [250 kB]
+    Get:3 http://deb.debian.org/debian stretch/main amd64 psmisc amd64 22.21-2.1+b2 [123 kB]
+    Fetched 431 kB in 0s (906 kB/s)  
+    debconf: delaying package configuration, since apt-utils is not installed
+    Selecting previously unselected package libprocps6:amd64.
+    (Reading database ... 7027 files and directories currently installed.)
+    Preparing to unpack .../libprocps6_2%3a3.3.12-3+deb9u1_amd64.deb ...
+    Unpacking libprocps6:amd64 (2:3.3.12-3+deb9u1) ...
+    Selecting previously unselected package procps.
+    Preparing to unpack .../procps_2%3a3.3.12-3+deb9u1_amd64.deb ...
+    Unpacking procps (2:3.3.12-3+deb9u1) ...
+    Selecting previously unselected package psmisc.
+    Preparing to unpack .../psmisc_22.21-2.1+b2_amd64.deb ...
+    Unpacking psmisc (22.21-2.1+b2) ...
+    Setting up psmisc (22.21-2.1+b2) ...
+    Setting up libprocps6:amd64 (2:3.3.12-3+deb9u1) ...
+    Setting up procps (2:3.3.12-3+deb9u1) ...
+    update-alternatives: using /usr/bin/w.procps to provide /usr/bin/w (w) in auto mode
+    update-alternatives: warning: skip creation of /usr/share/man/man1/w.1.gz because associated file /usr/share/man/man1/w.procps.1.gz (of link group w) doesn&apos;t exist
+    Processing triggers for libc-bin (2.24-11+deb9u4) ...
+    # ps axu
+    USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+    root           1  0.0  0.0  32636  5128 ?        Ss   07:10   0:00 nginx: master process nginx -g daemon off;
+    nginx          7  0.0  0.0  33084  3000 ?        S    07:10   0:00 nginx: worker process
+    root           8  0.0  0.0   4284  1416 pts/0    Ss   07:20   0:00 sh
+    root         255  0.0  0.0  36640  2912 pts/0    R+   07:24   0:00 ps axu
+    # sh
+    # bash
+    root@nginx-deployment-7fb96c846b-ltq7x://# apt-get update
+    Hit:1 http://security.debian.org/debian-security stretch/updates InRelease
+    Ign:2 http://deb.debian.org/debian stretch InRelease
+    Hit:3 http://deb.debian.org/debian stretch-updates InRelease
+    Hit:4 http://deb.debian.org/debian stretch Release 
+    Reading package lists... Done                      
+    root@nginx-deployment-7fb96c846b-ltq7x://# apt-get install
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+    root@nginx-deployment-7fb96c846b-ltq7x://# apt-get install procps
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    procps is already the newest version (2:3.3.12-3+deb9u1).
+    0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+    root@nginx-deployment-7fb96c846b-ltq7x://# ps aux
+    USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+    root           1  0.0  0.0  32636  5128 ?        Ss   07:10   0:00 nginx: master process nginx -g daemon off;
+    nginx          7  0.0  0.0  33084  3000 ?        S    07:10   0:00 nginx: worker process
+    root           8  0.0  0.0   4284  1416 pts/0    Ss   07:20   0:00 sh
+    root         256  0.0  0.0   4284   712 pts/0    S    07:25   0:00 sh
+    root         257  0.0  0.0  18136  3200 pts/0    S    07:25   0:00 bash
+    root         449  0.0  0.0  36640  2876 pts/0    R+   07:26   0:00 ps aux
+    root@nginx-deployment-7fb96c846b-ltq7x://# ^C
+    root@nginx-deployment-7fb96c846b-ltq7x://# ^C
+    root@nginx-deployment-7fb96c846b-ltq7x://# exit
+    # 
+    # ^C
+    # ^C
+    # 
+    command terminated with exit code 130
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Downloads</b></font>$ cd ..
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ ls
+    <font color="#3465A4"><b>Desktop</b></font>  <font color="#3465A4"><b>Documents</b></font>  <font color="#3465A4"><b>Downloads</b></font>  kubectl  minikube-linux-amd64  <font color="#3465A4"><b>Music</b></font>  <font color="#3465A4"><b>Pictures</b></font>  <font color="#3465A4"><b>Public</b></font>  <font color="#3465A4"><b>snap</b></font>  <font color="#3465A4"><b>Templates</b></font>  <font color="#3465A4"><b>Videos</b></font>
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Desktop/
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Desktop</b></font>$ cd backend_work/
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Desktop/backend_work</b></font>$ touch project.js
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Desktop/backend_work</b></font>$ docker build . -t atharv
+    Sending build context to Docker daemon  3.072kB
+    Step 1/5 : FROM node:16-alpine
+    16-alpine: Pulling from library/node
+    c158987b0551: Pull complete 
+    e15b2da73907: Pull complete 
+    90461d7cfbbe: Pull complete 
+    06b1a47b9f99: Pull complete 
+    Digest: sha256:58e4dfcf063f67d71e608c3cace5a0bcf39e9dbab3047b41e20c15c7132d1d46
+    Status: Downloaded newer image for node:16-alpine
+     ---&gt; 610c0494e820
+    Step 2/5 : WORKDIR /app
+     ---&gt; Running in bd4759036f5a
+    Removing intermediate container bd4759036f5a
+     ---&gt; 13ed4d9056e0
+    Step 3/5 : COPY . /app
+     ---&gt; 120f2633ee7b
+    Step 4/5 : CMD node project.js
+     ---&gt; Running in 2b4e9f3cfdda
+    Removing intermediate container 2b4e9f3cfdda
+     ---&gt; 6fa19febdfa3
+    Step 5/5 : EXPOSE 8081
+     ---&gt; Running in 6ede154f8e2e
+    Removing intermediate container 6ede154f8e2e
+     ---&gt; de97f7aaf872
+    Successfully built de97f7aaf872
+    Successfully tagged atharv:latest
+    <font color="#4E9A06"><b>ozone@ozone-Latitude-7400</b></font>:<font color="#3465A4"><b>~/Desktop/backend_work</b></font>$ docker run -p 3030:8081 atharv
+    Server Running!!!!
+    ^C
+    ^C
+    
+    
+    
+    </pre>
